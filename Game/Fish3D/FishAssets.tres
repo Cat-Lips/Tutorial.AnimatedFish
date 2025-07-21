@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="FishAssets" load_steps=16 format=3 uid="uid://b0gjv7pjn6mlt"]
+
+[ext_resource type="PackedScene" uid="uid://dubnf1o1jgbiu" path="res://Assets/Fish/FBX/Dolphin.fbx" id="1_5u4yq"]
+[ext_resource type="PackedScene" uid="uid://mtw7qgpefyna" path="res://Assets/Fish/FBX/Fish1.fbx" id="2_kkm1r"]
+[ext_resource type="PackedScene" uid="uid://hj4100bo3dly" path="res://Assets/Fish/FBX/Fish2.fbx" id="3_7heqo"]
+[ext_resource type="PackedScene" uid="uid://dclpvajgvexem" path="res://Assets/Fish/FBX/Fish3.fbx" id="4_f2cp8"]
+[ext_resource type="PackedScene" uid="uid://usrwf8r7p6yk" path="res://Assets/Fish/FBX/Manta ray.fbx" id="5_2ydw1"]
+[ext_resource type="PackedScene" uid="uid://d13dom6o8xxis" path="res://Assets/Fish/FBX/Shark.fbx" id="6_jgd5t"]
+[ext_resource type="PackedScene" uid="uid://yy3eufv6qgqw" path="res://Assets/Fish/FBX/Whale.fbx" id="7_gdivt"]
+[ext_resource type="ArrayMesh" uid="uid://cw73tweykooym" path="res://Assets/Fish/OBJ/Dolphin.obj" id="8_1sikh"]
+[ext_resource type="ArrayMesh" uid="uid://q47sh363ne5b" path="res://Assets/Fish/OBJ/Fish1.obj" id="9_oc5m7"]
+[ext_resource type="ArrayMesh" uid="uid://cho776ngj8wrw" path="res://Assets/Fish/OBJ/Fish2.obj" id="10_ju7xn"]
+[ext_resource type="ArrayMesh" uid="uid://c6ylifdix1q10" path="res://Assets/Fish/OBJ/Fish3.obj" id="11_hxmao"]
+[ext_resource type="ArrayMesh" uid="uid://bg3gsxhvso8so" path="res://Assets/Fish/OBJ/Manta ray.obj" id="12_4cf20"]
+[ext_resource type="ArrayMesh" uid="uid://2v8o5qw7y5wm" path="res://Assets/Fish/OBJ/Shark.obj" id="13_cl5k1"]
+[ext_resource type="ArrayMesh" uid="uid://bhkvkyj21nw1q" path="res://Assets/Fish/OBJ/Whale.obj" id="14_1nav8"]
+[ext_resource type="Script" uid="uid://bw64li72p1vmh" path="res://Game/Fish3D/FishAssets.cs" id="15_6cb30"]
+
+[resource]
+script = ExtResource("15_6cb30")
+OBJ = [ExtResource("8_1sikh"), ExtResource("9_oc5m7"), ExtResource("10_ju7xn"), ExtResource("11_hxmao"), ExtResource("12_4cf20"), ExtResource("13_cl5k1"), ExtResource("14_1nav8")]
+FBX = [ExtResource("1_5u4yq"), ExtResource("2_kkm1r"), ExtResource("3_7heqo"), ExtResource("4_f2cp8"), ExtResource("5_2ydw1"), ExtResource("6_jgd5t"), ExtResource("7_gdivt")]
